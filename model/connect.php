@@ -16,9 +16,9 @@ class connect{
 	public function __construct(){
 		session_start();
 			$this->dbase = "DB4185644";
-			$this->host = "rdbms.strato.de";
-			$this->user = "U4185644";
-			$this->pass = "neuAOW?2020";
+			$this->host = "localhost";
+			$this->user = "root";
+			$this->pass = "";
 			$this->hoststring = "mysql:host=".$this->host.";dbname=".$this->dbase.";";
 			$this->pdo = $this->doConnect();
 			//$this->base = "CRUD/";
