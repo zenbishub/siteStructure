@@ -1,0 +1,130 @@
+body {
+	font-family: verdana;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: aliceblue;
+}
+a:link {
+	color: navy;
+	text-decoration: none;
+}
+a:visited {
+	color: navy;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrapper {
+	width: 100%;
+	min-width: 1400px;
+}
+div#leftbar {
+	padding: 1em;
+	background-color: #E1F9F7;
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+div#right-content {
+	padding: .5em;
+    position: fixed;
+    height: 100%;
+    min-width: 79%;
+    overflow: auto;
+    margin-left: 21%;
+    background-color: aliceblue;
+}
+li.mainnavi {
+	padding: .1em .5em;
+}
+.zelle {
+    margin: .1em;
+    font-style: italic;
+    min-width: 2em;
+    font-size: .9em;
+}
+.row {
+	background-color: beige;
+	margin: .2em;
+	padding: .1em;
+}
+div#configMask {
+	margin: 2em 1em;
+	background-color: aquamarine;
+	padding: .5em;
+}
+.mask_items {
+	margin: 0.5em 0em;
+	background-color: beige;
+	padding: .5em;
+}
+.input-klein {
+	width: 45px;
+    display: inline-block;
+}
+.input-mittel {
+	width: 100px;
+}
+.input-gross {
+	width: 300px;
+}
+.button {
+	height: 2em;
+}
+ul#allTables {
+	list-style-type: none;
+	font-size: .8em;
+}
+.mask_items span {
+	font-size: 0.8em;
+}
+#overview-options {
+	margin-left: 2em;
+	background-color: beige;
+	padding: 2em;
+	font-size: .8em;
+	list-style-type: none;
+}
+.options {
+	float: right;
+	padding-right: .4em;
+}
+#overview-options li:hover {
+	background-color: #E1E1BE;
+}
+#addTable a:link, #addTable a:visited {
+	font-size: 1.2em;
+	display: inline-block;
+	background-color: #17a2b8;
+	border-radius: 50%;
+	color: #fff;
+}
+#addTable a:hover {
+	background-color: #ACACAC;
+	text-decoration: none;
+}
+div#addMask {
+	margin: 1em;
+}
+.edit-inputs-row {
+	margin: .5em;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+.edit-inputs {
+	display: inline-grid;
+	margin: 0.5em;
+}
+ul#overview-options li {
+	margin: .3em;
+	padding: .2em;
+	background-color: #fffd;
+}
+div#editStructureTable {
+    margin: 1em 0em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+}
