@@ -14,7 +14,7 @@ $o->checkSwitcher();
 $o->siteHead();
 $o->adminLeiste();
 
-
+//wert
 $o->updateData(connect::$reqtable, $_POST,"id=".connect::$reqid."","");
 
 
