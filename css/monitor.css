@@ -1,0 +1,107 @@
+body{
+	background-color:#EBEBEB;
+	margin:0;
+	padding:0;
+	
+}
+.container-fluid.wrapper {
+    margin-top: -1em;
+}
+.topheader-top {
+    padding-right: unset;
+    padding-left: 0;
+    background-color: var(--orange);
+    height: 3em;
+}
+.topheader-bottom {
+	padding-right: unset;
+	padding-left: 0;
+	background-color: #dcdcdc;
+	height: 0em;
+}
+.rightside {
+    background-color: #cacaca;
+    min-height: 31em;
+}
+.leftside {
+    background-color: white;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+nav.adminleiste a:link {
+    margin: .2em;
+    padding: .2em;
+    color: blue;
+}
+nav.adminleiste a:visited {
+    color: blue;
+}
+.mainslider {
+    height: 34em;
+    background-color: black;
+	position:relative;
+}
+.mainnavigation-bar {
+    position: absolute;
+    bottom: 0;
+    background-color: #909090;
+    min-height: 4em;
+}
+.row-mainslider {
+    position: absolute;
+    margin-top: 4em;
+    width: 70%;
+    margin-left: 14em;
+}
+.page-content {
+    background-color: #e0e0e0;
+    min-height: 30em;
+    box-shadow: 0em 0em 1em;
+	width: 1200px;
+    margin: auto;
+}
+
+footer {
+    min-height: 14em;
+    background-color: #292929;
+}
+.logo-of-page img {
+  
+}
+span.mainslider-box-text-big {
+    font-size: 3.5em;
+    color: aliceblue;
+    
+    font-weight: 100;
+    display: block;
+}
+span.mainslider-box-text-small {
+    font-size: 2.5em;
+    color: aliceblue;
+    
+    font-weight: 100;
+    display: block;
+}
+span.mainslider-box-text {
+    color: #c5c5c5;
+    font-size: 3em;
+}
+.container.mainslider-box {
+    height: 30em;
+    width: 80%;
+}
+.pagestatus {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+}
+nav.adminleiste {
+    position: fixed;
+    right: 0;
+    bottom: 2em;
+    padding: .5em;
+    background-color: #ccc;
+}

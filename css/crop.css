@@ -1,0 +1,54 @@
+div#properties {
+    position: absolute;
+    right: 2em;
+    background-color: #000;
+    color: aliceblue;
+    padding: .3em;
+    display: none;
+}
+#crop, #savecrop, #undo {
+    padding: 5px 25px 5px 25px;
+    background: lightseagreen;
+    border: #485c61 1px solid;
+    color: #FFF;
+    visibility: hidden;
+}
+#alert{
+	display:none;
+	}
+#reset {
+    padding: 5px 25px 5px 25px;
+    background: lightseagreen;
+    border: #485c61 1px solid;
+    color: #FFF;
+}
+div#btn {
+    background-color: black;
+    padding: .4em;
+}
+div#div-cropbox_img {
+    text-align: center;
+    margin-top: 1em;
+}
+div#div-cropbox {
+    text-align: -webkit-center;
+    margin-top: 1em;
+}
+div#crop-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3000;
+    background-color: #525252;
+    height: 100%;
+}
+span#crop-overlay-close {
+    color: aliceblue;
+    cursor: pointer;
+    float: right;
+    margin-top: .5em;
+    font-size: 1.1em;
+    margin-right: .4em;
+}
+

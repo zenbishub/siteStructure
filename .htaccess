@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /mySceleton/
+
+RewriteRule    ^([A-Za-z0-9-]+)/?$  ?controller=$1    [NC,L]   
+RewriteRule    ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$  ?controller=$1&param=$2    [NC,L] 
+RewriteRule    ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$  ?controller=$1&param=$2&param2=$3   [NC,L]
+RewriteRule    ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$  ?controller=$1&param=$2&param2=$3&param3=$4   [NC,L]

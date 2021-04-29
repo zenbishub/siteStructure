@@ -1,0 +1,18 @@
+
+.form-frame {
+    position: fixed;
+    width: 25em;
+    border: 1px solid #d8d8d8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: .3em;
+    padding: 1em;
+    background-color: #f8fcff;
+}
+.btn-login {
+    padding: .4em 2em;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #505050;
+}
