@@ -1,5 +1,5 @@
 <?php
-include "model/class_require.php";
+ include "model/class_require.php";
 $o = new publicController();
 
 
@@ -15,7 +15,7 @@ $o->siteHead();
 $o->adminLeiste();
 
 
-$o->updateData(connect::$reqtable, $_POST,"id=".connect::$reqid."","");
+$o->updateData(connect::$reqtable, $_POST,"id=".connect::$reqid."",""); 
 
 
 echo "<div class='container-fluid p-0 m-0 wrapper'>";

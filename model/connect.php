@@ -15,14 +15,14 @@ class connect{
 	public $sended;
 	public function __construct(){
 		session_start();
-			$this->dbase = "DB4185644";
+			$this->dbase = "muster";
 			$this->host = "localhost";
 			$this->user = "root";
 			$this->pass = "";
 			$this->hoststring = "mysql:host=".$this->host.";dbname=".$this->dbase.";";
 			$this->pdo = $this->doConnect();
 			//$this->base = "CRUD/";
-			$this->base = "https://".$_SERVER['HTTP_HOST']."/entwicklung/";
+			$this->base = "http://".$_SERVER['HTTP_HOST']."/mySceleton/";
 			//Achtung! bitte in .htaccess den Basepath auch ändern
 			
 			error_reporting(0);
